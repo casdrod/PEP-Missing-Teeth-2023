@@ -580,16 +580,16 @@ star:after {
 }
 
 #fixed-tabs .map {
-  background-color: #482984;
+  background-color: #20ADCD;
 }
 
 #fixed-tabs .call {
-  background-color: #6BA746;
+  background-color: #031E35;
 }
 
 #fixed-tabs .ra {
   flex: 0 1 50%;
-  background-color: #482984;
+  background-color: #20ADCD;
 }
 
 #fixed-tabs .ra, #fixed-tabs .call, #fixed-tabs .map {
@@ -623,12 +623,12 @@ body {
   background: #fff;
   text-align: center;
   color: #000;
-  font: 400 18px/26px "Geomanist", sans-serif;
+  font: 400 18px/26px "Lato", sans-serif;
 }
 
 p {
   color: #000;
-  font: 400 18px/1.6 "Geomanist", sans-serif;
+  font: 400 18px/1.6 "Lato", sans-serif;
   letter-spacing: 0.36px;
 }
 
@@ -636,22 +636,22 @@ a {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  color: #6BA746;
+  color: #031E35;
 }
 
 a:hover {
-  color: #6BA746;
+  color: #031E35;
 }
 
 h1, h2 h3, h4, h5, h6 {
-  font-family: "Geomanist", sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
 }
 
 h1 {
   margin: 0;
-  color: #6BA746;
-  font: 400 50px/1.3 "Geomanist", sans-serif;
+  color: #031E35;
+  font: 400 50px/1.3 "Lato", sans-serif;
   letter-spacing: 1.1px;
 }
 
@@ -661,32 +661,32 @@ h1 small {
 }
 
 h1 span {
-  font: 700 82px/1 "Geomanist", sans-serif;
+  font: 700 82px/1 "Lato", sans-serif;
   color: #000;
   display: block;
   letter-spacing: 0;
 }
 
 h2 {
-  font: normal 142px/1.1 "Geomanist", sans-serif;
-  color: #6BA746;
+  font: normal 142px/1.1 "Lato", sans-serif;
+  color: #031E35;
   margin: 10px 0;
 }
 h2.big {
-  font-family: "Geomanist", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: normal;
   font-size: 137px;
   letter-spacing: -0.04em;
   color: #000;
 }
 h2 span {
-  font-family: "Geomanist", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: normal;
 }
 
 h3, .h3 {
-  font: 700 30px/1 "Geomanist", sans-serif;
-  color: #6BA746;
+  font: 700 30px/1 "Lato", sans-serif;
+  color: #031E35;
   margin: 15px auto 10px;
   letter-spacing: 0.75px;
 }
@@ -730,7 +730,7 @@ main ul li:before {
   transform: translate(-50%, -50%);
   width: 100%;
   color: #000;
-  font: 700 15px/1 "Geomanist", sans-serif, sans-serif;
+  font: 700 15px/1 "Lato", sans-serif, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-align: center;
@@ -758,11 +758,11 @@ main ul li:before {
 }
 
 .play:hover {
-  color: #6BA746;
+  color: #031E35;
 }
 
 .play:hover i {
-  background-color: #6BA746;
+  background-color: #031E35;
   color: #fff;
 }
 
@@ -770,7 +770,7 @@ main ul li:before {
 [data-embed] .close, [data-vimeo] .close {
   cursor: pointer;
   line-height: 1;
-  background-color: #482984;
+  background-color: #20ADCD;
   color: #fff;
   padding: 8px;
   text-transform: uppercase;
@@ -789,7 +789,7 @@ main ul li:before {
   margin-bottom: 5px;
 }
 [data-embed] .close:focus, [data-vimeo] .close:focus {
-  background-color: #331d5d;
+  background-color: #1988a1;
 }
 
 [data-embed] .close:hover, [data-vimeo] .close:hover {
@@ -808,9 +808,9 @@ main ul li:before {
   padding: 15px 20px;
   text-align: center;
   color: #fff;
-  background-color: #482984;
+  background-color: #20ADCD;
   min-width: 250px;
-  font: 700 13px/1.1 "Geomanist", sans-serif;
+  font: 700 13px/1.1 "Lato", sans-serif;
   border-radius: 6px;
   letter-spacing: 1.8px;
 }
@@ -847,12 +847,13 @@ header #nav a {
 header #nav a i {
   font-size: 20px;
   color: #fff;
+  margin-right: 10px;
 }
 header #nav a i:before {
   padding: 7px;
   width: 35px;
   height: 35px;
-  background-color: #482984;
+  background-color: #20ADCD;
   border-radius: 50%;
   display: flex !important;
   justify-content: center;
@@ -863,14 +864,14 @@ header #nav a.btn {
   border-radius: 40px;
   color: #fff;
   font-size: 24px;
-  font-family: "Geomanist", sans-serif;
+  font-family: "Lato", sans-serif;
   max-width: 385px;
 }
 header #nav a.btn:hover {
-  background-color: #6BA746;
+  background-color: #031E35;
 }
 header #nav a.btn i {
-  color: #482984;
+  color: #20ADCD;
 }
 header #nav a.btn i:before {
   background-color: #fff;
@@ -903,15 +904,15 @@ header .phone {
   font-size: 32px;
 }
 header .phy {
-  font-size: 22px;
+  font-size: 20px;
   color: #fff;
   line-height: 1.26;
   font-weight: 400;
   letter-spacing: 0.47px;
-  font-family: "Geomanist", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 header .phy:hover {
-  color: #482984;
+  color: #20ADCD;
 }
 header .phy .header-buttons {
   margin: 0;
@@ -936,13 +937,13 @@ header .phy .header-buttons .btn span, header .phy .header-buttons .btn-alt span
 }
 
 .phone {
-  color: #482984;
-  font: 700 30px/30px "Geomanist", sans-serif;
+  color: #20ADCD;
+  font: 700 30px/30px "Lato", sans-serif;
   display: block;
   letter-spacing: 0.5px;
 }
 .phone:hover {
-  color: #6BA746;
+  color: #031E35;
 }
 .phone span {
   display: block;
@@ -991,16 +992,16 @@ p.big {
   font-weight: 300;
   letter-spacing: normal;
   line-height: 35px;
-  font-family: "Geomanist", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .bg-1 {
-  background-color: #F8F8F8;
+  background-color: #FFF;
   padding: 10px 10px 20px;
 }
 
 .bg-2 {
-  background-color: #6BA746;
+  background-color: #031E35;
   padding: 10px;
 }
 
@@ -1011,7 +1012,7 @@ p.big {
 .smile .top {
   font-size: 26px;
   font-weight: 700;
-  max-width: 1200px;
+  max-width: 1250px;
   margin: 60px auto 10px;
 }
 .smile .top h2 {
@@ -1096,8 +1097,8 @@ p.big {
 }
 
 .smile h1 {
-  color: #482984;
-  font: 400 100px/1 "Geomanist", sans-serif;
+  color: #20ADCD;
+  font: 400 85px/1 "Raleway", sans-serif;
   position: relative;
   display: flex;
   justify-content: center;
@@ -1129,13 +1130,13 @@ p.big {
   font-size: 50px;
   padding: 10px;
   color: #000;
-  font-family: "Geomanist", sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: left;
   letter-spacing: -0.02em;
   line-height: 60px;
 }
 .smile .content .call article a {
-  color: #482984;
+  color: #20ADCD;
 }
 .smile .content .call article a:hover {
   color: #000;
@@ -1145,13 +1146,17 @@ p.big {
   position: relative;
 }
 .smile .content .call figure figcaption {
-  background-color: #6BA746;
+  background-color: #031E35;
   bottom: 0;
   position: absolute;
   text-transform: uppercase;
   padding: 2px 15px;
   font-weight: 600;
   font-size: 14px;
+}
+.smile #divider img {
+  width: 100%;
+  margin-bottom: -5px;
 }
 .smile .form {
   background-color: #f0f0f0;
@@ -1174,7 +1179,7 @@ p.big {
   justify-content: center;
 }
 .smile .form input, .smile .form textarea {
-  font-family: "Geomanist", sans-serif;
+  font-family: "Lato", sans-serif;
   background-color: #fff;
   height: 55px;
   color: #000;
@@ -1200,7 +1205,7 @@ p.big {
   font-size: 20px;
   color: #000;
   margin-left: 5px;
-  font-family: "Geomanist", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .smile .form .big-label {
   display: block;
@@ -1208,12 +1213,12 @@ p.big {
   font-weight: 500;
   color: #000;
   text-align: left;
-  font-family: "Geomanist", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .smile .form .simple .btn {
   width: 95%;
   text-transform: uppercase;
-  font-family: "Geomanist", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 20px;
   margin-top: 10px;
 }
@@ -1253,7 +1258,7 @@ p.big {
   flex-direction: column;
 }
 .smile #clockdiv > div span {
-  color: #482984;
+  color: #20ADCD;
   font-size: 40px;
   font-weight: 700;
   font-style: normal;
@@ -1272,10 +1277,10 @@ p.big {
 .smile .use-it-very-bottom-text .big {
   line-height: 45px;
   color: #fff !important;
-  font-size: 34px;
+  font-size: 26px;
   margin-bottom: 50px;
-  font-weight: 400;
-  font-family: "Geomanist", sans-serif;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
 }
 
 footer :is(input, textarea) {
@@ -1287,7 +1292,7 @@ footer :is(input, textarea) {
 }
 .factors h2 {
   color: #000;
-  font: 400 61px/1 "Geomanist", sans-serif;
+  font: 400 90px/1 "Raleway", sans-serif;
   padding: 25px 15px;
   margin: 0;
   position: relative;
@@ -1298,7 +1303,7 @@ footer :is(input, textarea) {
 }
 .factors h2:after {
   content: "";
-  background-color: #6BA746;
+  background-color: #031E35;
   width: 150px;
   height: 3px;
   right: 0;
@@ -1315,17 +1320,17 @@ footer :is(input, textarea) {
   text-transform: uppercase;
 }
 .factors .bef-aft > img {
-  margin: 50px auto 20px;
+  margin: 20px auto;
   box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.3);
 }
 .factors [class*=row] > div {
   display: flex;
-  flex-flow: column nowrap;
-  flex: 1 0 25%;
+  flex: 1 0 100%;
   padding: 20px;
+  flex-wrap: wrap;
 }
 .factors [class*=row] p {
-  font: 500 22px/1 "Geomanist", sans-serif;
+  font: 500 22px/1 "Lato", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   line-height: 26px;
@@ -1334,7 +1339,7 @@ footer :is(input, textarea) {
   margin: auto;
 }
 .factors .icon rect, .factors .icon path {
-  fill: #6BA746;
+  fill: #031E35;
 }
 
 .fo-form {
@@ -1452,7 +1457,7 @@ footer {
   background: #fff;
 }
 footer h2 {
-  font: 300 45px/1.2 "Geomanist", sans-serif;
+  font: 300 45px/1.2 "Lato", sans-serif;
   color: #000;
   text-align: center;
   margin: 0 auto 20px;
@@ -1472,7 +1477,7 @@ footer img {
   margin-top: 30px;
 }
 footer article .phy {
-  font-family: "Geomanist", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: normal;
   font-size: 18px;
   color: #000;
@@ -1514,7 +1519,7 @@ footer .split article {
 footer .split article p {
   margin-top: 20px;
   text-align: center;
-  font: 400 32px/1.2 "Geomanist", sans-serif;
+  font: 400 32px/1.2 "Lato", sans-serif;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   color: #000;
@@ -1523,7 +1528,7 @@ footer .split article p span:first-child {
   font-size: 20px;
 }
 footer .split article p .phone-footer {
-  color: #482984;
+  color: #20ADCD;
 }
 footer .split article p small {
   font-size: 19px;
@@ -1567,13 +1572,13 @@ figcaption {
   padding: 5px;
 }
 figcaption span {
-  font-family: "Geomanist", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
   font-size: 16px;
   color: #fff;
 }
 figcaption p {
-  font: 400 18px/1 "Geomanist", sans-serif;
+  font: 400 18px/1 "Lato", sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
@@ -1582,7 +1587,7 @@ figcaption strong {
   font-weight: 400;
   display: block;
   font-size: 22px;
-  font-family: "Geomanist", sans-serif;
+  font-family: "Lato", sans-serif;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -1594,10 +1599,10 @@ figcaption .address {
   font-size: 14px;
 }
 figcaption .address:hover {
-  color: #482984;
+  color: #20ADCD;
 }
 figcaption:hover p {
-  color: #482984;
+  color: #20ADCD;
 }
 
 .stamp {
@@ -1613,23 +1618,23 @@ figcaption:hover p {
   padding: 45px 10px;
   background-color: #fff;
   margin: auto;
-  font: 300 16px/1.4 "Geomanist", sans-serif;
+  font: 300 16px/1.4 "Lato", sans-serif;
   color: #1a1a1a;
 }
 .copy a, .copy p {
-  font: 400 16px/1.4 "Geomanist", sans-serif;
+  font: 400 18px/1.4 "Lato", sans-serif;
   color: #fff;
   letter-spacing: 0.6px;
 }
 .copy a {
-  color: #482984;
+  color: #20ADCD;
 }
 .copy p {
   margin: 20px auto;
   max-width: 1090px;
 }
 .copy a:hover {
-  color: #6BA746;
+  color: #031E35;
   text-decoration: underline;
 }
 .copy span {
@@ -1644,8 +1649,8 @@ figcaption:hover p {
   font-size: 16px;
   font-weight: 700;
   padding: 15px 10px;
-  border: 1px solid #482984;
-  background-color: #482984;
+  border: 1px solid #20ADCD;
+  background-color: #20ADCD;
   color: #fff;
 }
 .simple .btn:hover {
@@ -1671,7 +1676,7 @@ figcaption:hover p {
   color: #fff;
 }
 .simple input:focus, .simple textarea:focus, .simple .btn:focus, .simple select:focus {
-  box-shadow: inset 0 -3px 0 #482984;
+  box-shadow: inset 0 -3px 0 #20ADCD;
 }
 
 hr {
@@ -1741,6 +1746,9 @@ hr {
   }
   header #nav a.btn {
     display: none;
+  }
+  header #nav #header-info {
+    order: 1;
   }
   .phone {
     font-size: 30px;

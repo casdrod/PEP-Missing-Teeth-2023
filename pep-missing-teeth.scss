@@ -32,9 +32,10 @@
 .yt-play {cursor: pointer; position: absolute; top: 42%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); font-size: 70px; color: #ff0000; font-family: "fontello"; font-weight: 400; margin: 0; font-style: normal; content: "\e80e"; }
 .yt-play:hover { color:  #4d4d4d; }
 
-$primary: #482984;
-$secondary:#6BA746;
-$font: 'Geomanist', sans-serif;
+$primary: #20ADCD;
+$secondary:#031E35;
+$font: 'Lato', sans-serif;
+$font2: 'Raleway', sans-serif;
 $text: #000;
 $icon-bkg: rgba(29, 37, 44,0.04);
 
@@ -100,7 +101,7 @@ main ul{list-style:none;padding:0;margin:10px auto;text-align:left;display:table
 header{position:relative;padding:15px;z-index:100;background-color: #F3F1F7;
     #nav {display:flex;max-width:1400px;justify-content:space-between;margin:auto;align-items:center;padding:2px;position:relative;
         a {color: $text;text-align:left;
-            i {font-size: 20px; color: #fff;
+            i {font-size: 20px; color: #fff;margin-right: 10px;
             &:before {padding: 7px; width: 35px; height: 35px; background-color: $primary; border-radius: 50%; display: flex !important; justify-content: center; align-items: center;}
             }
             &.btn {padding: 5px 20px; border-radius: 40px; color: #fff;font-size: 24px;font-family: $font;max-width: 385px;
@@ -119,7 +120,7 @@ header{position:relative;padding:15px;z-index:100;background-color: #F3F1F7;
         .logo{margin:0;}
         address{text-align:center;}
         .phone{color: #fff; font-size: 32px;}
-        .phy{font-size:22px;color:#fff;line-height:1.26;font-weight:400;letter-spacing:.47px;font-family: $font;
+        .phy{font-size:20px;color:#fff;line-height:1.26;font-weight:400;letter-spacing:.47px;font-family: $font;
             &:hover{color:$primary;}
         .header-buttons{margin:0;padding:7px 10px;font-size:14px;letter-spacing:normal;
             .btn,.btn-alt{font-size:12px;letter-spacing:1.2px;border:none;width:200px;margin:2px;padding:10px; min-width: 160px;text-transform: uppercase; border-radius: 15px;
@@ -147,10 +148,10 @@ p {
 /*Use it or Lose it Page*/
 .reorder-top {display: block;}
 .smile .top .big {color: $text; font-size: 25px; font-weight: 300; letter-spacing: normal;line-height: 35px;font-family: $font;}
-.bg-1{background-color: #F8F8F8; padding: 10px 10px 20px;}
+.bg-1{background-color: #FFF; padding: 10px 10px 20px;}
 .bg-2{background-color: $secondary; padding: 10px;}
 .smile #main-nav, .smile .mean-bar{display: none !important;}
-.smile .top{font-size: 26px; font-weight: 700; max-width: 1200px; margin: 60px auto 10px;
+.smile .top{font-size: 26px; font-weight: 700; max-width: 1250px; margin: 60px auto 10px;
     h2 {margin-top: -20px;color: $text; font-size: 58px; letter-spacing: -.02em; font-weight: 400;}
 }
 .smile .use-banner{ max-width: 1260px; margin: 50px auto; display: flex; align-items: flex-end; justify-content: space-around; flex-wrap: wrap; flex-flow: row wrap;
@@ -173,7 +174,7 @@ p {
 .use-it-top-image p {color: $text;}
 .smile {
     h1 {
-        color: $primary; font: 400 100px/1 $font;position: relative;display: flex;justify-content: center;padding-bottom: 30px;
+        color: $primary; font: 400 85px/1 $font2;position: relative;display: flex;justify-content: center;padding-bottom: 30px;
     }
     article p { &.big{font-weight: normal; font-size: 26px; text-align: center; color: #1a1a1a;}}
     .content{ max-width: 1260px; margin: 60px auto; background-color: #f0f0f0; 
@@ -188,6 +189,9 @@ p {
                 figcaption { background-color: $secondary; bottom: 0; position: absolute; text-transform: uppercase; padding: 2px 15px; font-weight: 600; font-size: 14px;}
             }
         }
+    }
+    #divider {
+        img {width: 100%; margin-bottom: -5px;}
     }
     .form {background-color: #f0f0f0;
         form{ max-width: 100%;  display: flex; align-items: center; justify-content: center; flex-wrap: wrap; padding-bottom: 50px; padding-top: 50px;
@@ -215,7 +219,7 @@ p {
             .smalltext { margin-top: 30px; color: $text; font-size: 20px; font-weight: 700; font-style: normal; letter-spacing: normal; line-height: 1; }
         }
     }
-    .use-it-very-bottom-text .big {line-height: 45px;color: #fff !important; font-size: 34px;margin-bottom: 50px;font-weight: 400;font-family: $font;}
+    .use-it-very-bottom-text .big {line-height: 45px;color: #fff !important; font-size: 26px;margin-bottom: 50px;font-weight: 700;font-family: $font;}
 }
 
 footer :is(input, textarea) {background-color: #f0f0f0 !important;}
@@ -223,7 +227,7 @@ footer :is(input, textarea) {background-color: #f0f0f0 !important;}
 
 .factors { margin: 0 auto 50px;
     h2 {
-        color: #000; font: 400 61px/1 $font; padding: 25px 15px; margin: 0;position: relative;
+        color: #000; font: 400 90px/1 $font2; padding: 25px 15px; margin: 0;position: relative;
         span {font-size: 33px;font-weight: 700;}
         &:after {content: '';background-color: $secondary;width: 150px;height: 3px; right: 0; left: 0; margin: auto;position:absolute;bottom: 0;}
     }
@@ -231,9 +235,9 @@ footer :is(input, textarea) {background-color: #f0f0f0 !important;}
         font-size: 18px;color: #1B1B1B;
         span {text-transform: uppercase;}
     }
-    .bef-aft > img {margin: 50px auto 20px;box-shadow: 5px 5px 13px rgba(0,0,0,0.3);}
+    .bef-aft > img {margin: 20px auto;box-shadow: 5px 5px 13px rgba(0,0,0,0.3);}
     [class*=row] {
-        > div { display: flex; flex-flow: column nowrap; flex: 1 0 25%; padding: 20px;}
+        > div { display: flex; flex: 1 0 100%; padding: 20px;flex-wrap:wrap;}
         p {font: 500 22px/1 $font; text-transform: uppercase; letter-spacing: 0.1em;line-height: 26px;}
     }
     .icon {
@@ -323,7 +327,7 @@ figcaption{text-align:center; background: #000; text-transform: uppercase; paddi
 
 /* ------------- Copy -------------- */
 .copy {margin-top:20px;padding:45px 10px; background-color:#fff;margin:auto;font:300 16px/1.4 $font; color:#1a1a1a;; 
-   a, p {font:400 16px/1.4 $font; color:#fff; letter-spacing: 0.6px;}
+   a, p {font:400 18px/1.4 $font; color:#fff; letter-spacing: 0.6px;}
    a {color: $primary;}
     p {margin: 20px auto; max-width: 1090px;}
     a:hover{color:$secondary;text-decoration:underline}
@@ -370,6 +374,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     #nav .logo{margin:0}
     #nav .header-buttons{margin:0;order:0;flex:0 1 220px}
     header #nav a.btn {display:none;}
+    header #nav #header-info {order: 1;}
     .phone{font-size:30px;margin:0}
     hr{display:block;max-width:95%}
     .smile .use-banner article {display: flex; flex-direction: column-reverse; margin-top: 40px;}
