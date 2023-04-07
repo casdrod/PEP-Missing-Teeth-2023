@@ -1288,7 +1288,7 @@ footer :is(input, textarea) {
 }
 
 .factors {
-  margin: 0 auto 50px;
+  margin: 0 auto;
 }
 .factors h2 {
   color: #000;
