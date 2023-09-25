@@ -118,6 +118,10 @@ $(document).ready(function() {
 		});			
 	});
 
+	var lastDayOfYear = new Date(new Date().getFullYear(), 11, 31);
+	var deadline = lastDayOfYear;
+	initializeClock('clockdiv', deadline);
+
 
 
 });
@@ -189,7 +193,4 @@ function getTimeRemaining(endtime) {
 	var timeinterval = setInterval(updateClock, 1000);
   }
   
-  var lastDayOfYear = new Date(new Date().getFullYear(), 11, 31);
-  var deadline = lastDayOfYear;
-  initializeClock('clockdiv', deadline);
 
